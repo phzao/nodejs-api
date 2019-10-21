@@ -1,0 +1,14 @@
+- Commit do banco de dados, .ideia  
+- Versao 7.2 do PHP e diversas libs adicionais  
+- Comentarios no Dockerfile  
+- Utilizou composer require no Dockerfile  
+- Utilização do Laravel  
+- Criação de uma classe de validação (RequestValidator)  
+- Implementação dos retornos na classe base do Controller  
+- Validação de Key no controller (Middleware?)  
+- Tratamento de erros no repositorio do ES (se der erro retorna 200)  
+- Muito codigo comentado (Controller order-api)  
+- Throw de Exceptions generica sem status code (UserAPI order-api)  
+- Set no Redis sem TTL  
+- Rota test retorna o mesmo que a outra rota de exibição  
+- Rota de show, quando manda um ID e não existe retorna 422 para erro generico
